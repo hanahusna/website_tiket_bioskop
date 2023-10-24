@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+
+  .menu {
+    display: none; 
+    background-color: thistle; 
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .background {background-color: lightgray;}
+
+  .w3-row-padding img {margin-bottom: 12px;}
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {display: none;}
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
